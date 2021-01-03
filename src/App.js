@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import Weather from './components/Weather';
 import SearchCity from './components/SearchCity';
 import { useSelector } from 'react-redux';
