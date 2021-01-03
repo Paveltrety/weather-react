@@ -1,6 +1,7 @@
 let initialState = {
     weather: [],
     isLoaded: false,
+    textarea: '',
     error: false
 }
 
