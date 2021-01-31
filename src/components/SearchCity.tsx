@@ -1,23 +1,23 @@
 import React from 'react'
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchWeather, changeText } from '../redux/action/weatherAction';
-
+import { stateType } from '../redux/store';
 
 const SearchCity = () => {
     const dispatch = useDispatch();
-    const state = useSelector(state => {
+    const state = useSelector((state: stateType) => {
         return {
             textarea: state.weatherPage.textarea,
         }
     });
 
-    let linkText = React.createRef();
+    let linkText = React.useRef<HTMLInputElement>(null);
     const onChangeCity = () => {
-        let newCity = linkText.current.value;
+        let newCity = linkText.current!.value;
         dispatch(changeText(newCity));
     }
 
-    const sumbitCity = (event) => {
+    const sumbitCity = (event: any) => {
         dispatch(fetchWeather(state.textarea));
         event.preventDefault();
     }
@@ -28,8 +28,6 @@ const SearchCity = () => {
             </form>
         </>
     )
-
 }
-
 
 export default SearchCity;
