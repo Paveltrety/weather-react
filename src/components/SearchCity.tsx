@@ -17,7 +17,7 @@ const SearchCity = () => {
         dispatch(changeText(newCity));
     }
 
-    const sumbitCity = (event: any) => {
+    const sumbitCity = (event: React.FormEvent<HTMLFormElement>) => {
         dispatch(fetchWeather(state.textarea));
         event.preventDefault();
     }

@@ -12,7 +12,6 @@ const Weather: React.FC<propsType> = (props) => {
             {!props.isLoaded ? '' : <WeatherInfo weather={props.weather}/>}
         </>
     )
-
  }
 
 export default memo(Weather);
