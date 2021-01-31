@@ -12,9 +12,13 @@ const SearchCity = () => {
     });
 
     let linkText = React.useRef<HTMLInputElement>(null);
+
+
     const onChangeCity = () => {
-        let newCity = linkText.current!.value;
-        dispatch(changeText(newCity));
+        if (linkText.current !== null) {
+            let newCity = linkText.current.value;
+            dispatch(changeText(newCity));
+        } 
     }
 
     const sumbitCity = (event: React.FormEvent<HTMLFormElement>) => {
