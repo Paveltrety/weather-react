@@ -1,23 +1,21 @@
 {
   "files": {
     "main.css": "/weather-react/static/css/main.f90f25d0.chunk.css",
-    "main.js": "/weather-react/static/js/main.c980e605.chunk.js",
-    "main.js.map": "/weather-react/static/js/main.c980e605.chunk.js.map",
-    "runtime-main.js": "/weather-react/static/js/runtime-main.47fecef5.js",
-    "runtime-main.js.map": "/weather-react/static/js/runtime-main.47fecef5.js.map",
+    "main.js": "/weather-react/static/js/main.2c2abf7f.chunk.js",
+    "main.js.map": "/weather-react/static/js/main.2c2abf7f.chunk.js.map",
+    "runtime-main.js": "/weather-react/static/js/runtime-main.cdd46c38.js",
+    "runtime-main.js.map": "/weather-react/static/js/runtime-main.cdd46c38.js.map",
     "static/js/2.ab4b7283.chunk.js": "/weather-react/static/js/2.ab4b7283.chunk.js",
     "static/js/2.ab4b7283.chunk.js.map": "/weather-react/static/js/2.ab4b7283.chunk.js.map",
-    "static/js/3.9ac1ad47.chunk.js": "/weather-react/static/js/3.9ac1ad47.chunk.js",
-    "static/js/3.9ac1ad47.chunk.js.map": "/weather-react/static/js/3.9ac1ad47.chunk.js.map",
     "index.html": "/weather-react/index.html",
     "static/css/main.f90f25d0.chunk.css.map": "/weather-react/static/css/main.f90f25d0.chunk.css.map",
     "static/js/2.ab4b7283.chunk.js.LICENSE.txt": "/weather-react/static/js/2.ab4b7283.chunk.js.LICENSE.txt",
     "static/media/index.css": "/weather-react/static/media/346490_gallery.c04b9438.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.47fecef5.js",
+    "static/js/runtime-main.cdd46c38.js",
     "static/js/2.ab4b7283.chunk.js",
     "static/css/main.f90f25d0.chunk.css",
-    "static/js/main.c980e605.chunk.js"
+    "static/js/main.2c2abf7f.chunk.js"
   ]
 }
